@@ -1,0 +1,34 @@
+{
+  "name": "PantryChef",
+  "version": "1.0.0",
+  "description": "cool project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "eslint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nastyamadzhara/PantryChef"
+  },
+  "dependencies": {
+  "react": "18.3.1",
+  "react-dom": "18.3.1"
+},
+  "devDependencies": {
+    "webpack": "5.94.0",
+    "webpack-dev-server": "5.1.0",
+    "eslint": "9.10.0"
+  },
+
+  "author": "daydreamrrrr",
+  "license": "ISC",
+
+  "bugs": {
+    "url": "https://github.com/nastyamadzhara/PantryChef/issues"
+  },
+  "homepage": "https://github.com/nastyamadzhara/PantryChef#readme"
+}
