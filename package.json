@@ -4,7 +4,11 @@
   "description": "cool project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "echo \"App has been started\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "build": "webpack --config webpack.prod.config.js",
+    "build:dev": "webpack --config webpack.dev.config.js"
   },
   "keywords": [
     "react",
@@ -15,20 +19,38 @@
     "url": "git+https://github.com/nastyamadzhara/PantryChef"
   },
   "dependencies": {
-  "react": "18.3.1",
-  "react-dom": "18.3.1"
-},
-  "devDependencies": {
-    "webpack": "5.94.0",
-    "webpack-dev-server": "5.1.0",
-    "eslint": "9.10.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
-
-  "author": "daydreamrrrr",
+  "devDependencies": {
+    "@babel/core": "^7.25.9",
+    "@babel/preset-env": "^7.25.9",
+    "@babel/preset-react": "^7.25.9",
+    "@eslint/js": "^9.13.0",
+    "@webpack-cli/generators": "^3.0.7",
+    "babel-loader": "^9.2.1",
+    "cypress": "^13.15.1",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.11.0",
+    "html-webpack-plugin": "^5.6.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.10",
+    "prettier": "3.3.3",
+    "webpack": "5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "5.1.0",
+    "webpack-merge": "^6.0.1"
+  },
+  "author": "nastyamadzhara",
   "license": "ISC",
-
   "bugs": {
     "url": "https://github.com/nastyamadzhara/PantryChef/issues"
   },
-  "homepage": "https://github.com/nastyamadzhara/PantryChef#readme"
+  "homepage": "https://github.com/nastyamadzhara/PantryChef#readme",
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
 }
