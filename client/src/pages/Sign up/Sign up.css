@@ -1,0 +1,124 @@
+body {
+    height: 100%;
+    background-color: #FFFBE6;
+    font-family: Kreon, sans-serif;
+}
+
+.bigRectangleElement {
+    width: 650px;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #00712d;
+    height: 650px;
+    margin: auto;
+    margin-top: 8%;
+    text-align: center;
+}
+
+.smallRectangleElement {
+    /* position: relative; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background-color: #75a64b;
+    height: 360px;
+    margin: auto;
+    width: 400px;
+    padding: 10px 15px;
+}
+
+.textTitle {
+    text-align: center;
+    padding: 20px 0 10px 0;
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+
+}
+
+.textTitle2 {
+    text-align: center;
+    padding: 0px 0 15px 0;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.text {
+    width: 301px;
+    position: relative;
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    height: 58px;
+}
+
+.text2 {
+    text-align: center;
+    font-size: 20px;
+    color: #fffbe6;
+    padding-top: 20px;
+}
+
+.label {
+    display: block;
+    color: white;
+    margin: 10px 10px 10px 15px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.textInput {
+    width: 90%;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #fffbe6;
+    height: 60px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.button {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #75a64b;
+    width: 180px;
+    height: 40px;
+    font-size: 22px;
+    font-family: Kreon, sans-serif;
+    color:#fffbe6;
+}
+.button:hover {
+    color: #693420;
+    background-color: #d5ed9f;
+}
+.textBlock{
+    text-align: center;
+    color: #fffbe6;
+}
+.sign-up-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 155px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    color: white;
+}
+.sign-up-carrotIcon {
+    width: 70px;
+    height: 60px;
+    margin-right: 10px;
+}
+u:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
