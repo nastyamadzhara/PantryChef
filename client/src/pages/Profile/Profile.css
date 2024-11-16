@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@400&display=swap');
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    background-color: #FFFBE6;
+    font-family: Kreon, sans-serif;
+}
+.profile-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.box {
+    height: 310px;
+    width: 344px;
+    background-color: #fffbe680;
+    border-radius: 0px 0px 15px 15px;
+    left: 0;
+    position: relative;
+    top: 0;
+    margin: auto;
+    z-index: 10;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.circle {
+    height: 160px;
+    width: 160px;
+    background-color: #fffbe6;
+    border: 1px solid;
+    border-color: #693420ad;
+    border-radius: 80px;
+    height: 160px;
+    left: 0;
+    top: 0;
+    width: 160px;
+    margin: auto;
+}
+
+.textProfile {
+    height: 22px;
+    width: 133px;
+    -webkit-text-stroke: 1px #693420a8;
+    color: #ffffff;
+    font-family: Kreon, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 133px;
+    margin: auto;
+    padding: 10px;
+}
+.profile-backgroundImage{
+    width: 100%;
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+    height: 680px;
+    object-fit: cover;
+    opacity: 0.67;
+    z-index: 0;
+}
+
+.recentlyWatchedChild {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #75a64b;
+    width: 1600px;
+    height: 474px;
+}
+
+.recentlyWatched1 {
+    position: absolute;
+    top: 18px;
+    left: 65px;
+    display: inline-block;
+    width: 227px;
+    height: 40px;
+}
+.rectangleParent {
+    position: absolute;
+    justify-content: center;
+    top: -33px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 360px;
+    height: 75px;
+    border-radius: 30px;
+    left: 612px;
+    background-color: #81b753;
+}
+
+.recentlyWatched {
+    width: 100%;
+    position: relative;
+    height: 512px;
+    text-align: center;
+    font-size: 32px;
+    color: #fffbe6;
+    font-family: Kreon;
+    margin-top: 100px;
+    left:-620px;
+}
+
+.containers1Child,
+.containers1Item,
+.containers1Inner {
+    border-radius: 30px;
+    background-color: #fff7cf;
+    width: 351px;
+    height: 330px;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
